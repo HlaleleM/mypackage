@@ -36,5 +36,5 @@ def test_merge_sort():
 
 def test_quick_sort():
     assert.myFunction.quick_sort(['E','D','S','A']) == ['A','D','E','S'],'incorrect'
-    assert.myFunction.merge_sort([4,-1,0,20,0]) == [-1,0,0,4,20],'incorrect'
-    assert.myFunction.merge_sort([3,7,2,3,1]) == [1,2,3,3,7],'incorrect'
+    assert.myFunction.quick_sort([4,-1,0,20,0]) == [-1,0,0,4,20],'incorrect'
+    assert.myFunction.quick_sort([3,7,2,3,1]) == [1,2,3,3,7],'incorrect'
